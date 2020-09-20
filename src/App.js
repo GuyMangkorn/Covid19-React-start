@@ -35,7 +35,8 @@ class App extends React.Component{
     ))
     return (
         <div className="App">
-          <SearchBox placeholder="Enter country name ..." handleChange={this.handleChange}/>
+          <h1 style={{color:"black"}}>Covid Stats</h1>
+          <SearchBox placeholder="Enter country name ..." handleChange={this.handleChange}/><hr></hr>
           <CountryList  stats = {filteredCountries}  />
         </div>
     )
